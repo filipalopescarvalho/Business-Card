@@ -64,5 +64,17 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-}</style>
+
+}
+  @media (max-width: 600px) {
+  .card {
+    height: auto; 
+    flex-direction: column;
+  }
+
+  .image img {
+    border-radius: 10px 10px 0 0; 
+  }
+}
+  </style>
 </html>
